@@ -73,8 +73,7 @@ Key insights:
 ### Installation
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/march-madness-2025.git
-cd march-madness-2025
+git clone https://github.com/KabeerThockchom/MarchMadness2025Prediction.git
 
 # Install dependencies
 pip install numpy pandas xgboost lightgbm scikit-learn
@@ -83,10 +82,7 @@ pip install numpy pandas xgboost lightgbm scikit-learn
 ### Running the Pipeline
 ```bash
 # Full pipeline from raw data to predictions
-python march_madness_model.py
-
-# For restarting from saved team statistics
-python restart_script.py
+python model.py
 ```
 
 ### Data Directory Structure
